@@ -51,7 +51,7 @@ layer_1/tile_data = PackedInt32Array(1114140, 2, 0, 655394, 2, 0, 786451, 2, 0, 
 [node name="DoorChangeScene" parent="." instance=ExtResource("6_ijacn")]
 z_index = -1
 position = Vector2(1738, 527)
-_path_to_scene = "res://scenes/game/levels/rooms/scene_3/scene_3.tscn"
+_path_to_scene = "res://scenes/game/levels/rooms/scene_4/scene_4.tscn"
 
 [node name="Enemies" type="Node2D" parent="."]
 

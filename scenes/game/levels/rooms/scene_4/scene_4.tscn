@@ -563,7 +563,6 @@ scale = Vector2(1.5, 1.5)
 texture = ExtResource("7_vuyq1")
 
 [node name="Sprite2D10" type="Sprite2D" parent="Fondo"]
-visible = false
 z_index = -1
 position = Vector2(252, 460)
 scale = Vector2(1.5, 1.5)
@@ -594,7 +593,6 @@ scale = Vector2(1.5, 1.5)
 texture = ExtResource("7_vuyq1")
 
 [node name="Sprite2D15" type="Sprite2D" parent="Fondo"]
-visible = false
 z_index = -1
 position = Vector2(65, 545)
 scale = Vector2(1.5, 1.5)
@@ -655,7 +653,6 @@ scale = Vector2(1.5, 1.5)
 texture = ExtResource("7_vuyq1")
 
 [node name="Sprite2D17" type="Sprite2D" parent="Fondo"]
-visible = false
 z_index = -1
 position = Vector2(252, 545)
 scale = Vector2(1.5, 1.5)
@@ -719,7 +716,7 @@ hframes = 6
 
 [node name="DoorChangeScene" parent="." instance=ExtResource("9_u2acb")]
 z_index = 1
-position = Vector2(527, 360)
+position = Vector2(526, 358)
 _path_to_scene = "res://scenes/game/levels/rooms/scene_3/scene_3.tscn"
 
 [node name="Cannon" parent="." instance=ExtResource("10_ypl4r")]

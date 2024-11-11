@@ -221,7 +221,7 @@ position = Vector2(797, 340)
 position = Vector2(1149, 460)
 
 [node name="MainCharacter" parent="." instance=ExtResource("15_ooixx")]
-position = Vector2(120, 521)
+position = Vector2(123, 519)
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = ExtResource("1_0t8t3")

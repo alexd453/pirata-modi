@@ -95,6 +95,7 @@ func _on_body_entered(body):
 	# Validamos que la colisión es con el personaje principal 
 	if body.is_in_group(\"player\") and not _collider.disabled:
 		_collider.disabled = true
+		body.get_child(0).monedas_recogidas +=1
 		# Reproducimos la animación de la moneda recogida
 		do_animation()
 "

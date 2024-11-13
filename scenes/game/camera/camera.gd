@@ -34,3 +34,7 @@ func _physics_process(delta):
 	new_pos.y = int(new_pos.y)
 	# Seteamos la nueva posición de la cámara
 	position = new_pos
+
+
+func _on_area_2d_body_entered(body: Node2D) -> void:
+	pass # Replace with function body.

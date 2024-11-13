@@ -3,7 +3,7 @@ extends Node
 ##
 ## Se definen las variables globales que van a ser accesibles en todo el juego
 
-
+var cofre
 # Tipo de ataque aplicado
 var attack_effect = "normal"
 

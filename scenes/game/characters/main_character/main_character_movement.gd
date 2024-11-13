@@ -4,8 +4,8 @@ extends Node2D
 ## Detecta eventos de teclado para poder mover un personaje por un escenario
 ## y ajustar animaciones según el movimiento
 ## Movimiento básica de personaje: https://docs.google.com/document/d/1c9XXznR1KBJSr0jrEWjYIqfFuNGCGP2YASkXsFgEayU/edit
- 
 
+var monedas_recogidas = 0
 @export var character: CharacterBody2D # Referencia al personaje a mover
 @export var main_animation: AnimatedSprite2D # Referencia al sprite del personaje
 @export var effect_animation_sword: AnimatedSprite2D # Referencia al sprite del personaje
@@ -53,6 +53,10 @@ func _ready():
 	# Si no hay un personaje, deshabilitamos la función: _physics_process
 	if not character:
 		set_physics_process(false)
+		
+	await get_tree().create_timer(15.0).timeout
+	if monedas_recogidas>=11:
+		Global.cofre.Abrir()
 
 
 # Función de ejecución de físicas
